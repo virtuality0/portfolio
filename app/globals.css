@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+body {
+  background-color: #171617;
+}
+
+@theme {
+  --color-gray-700: #171617;
+  --color-black-700: #121212;
+  --color-green-500: #124b37;
+  --color-red-500: #db7273;
+}
+
+.clip-polygon {
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
