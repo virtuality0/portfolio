@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Logo } from "../icons/logo";
 import { Menu } from "../icons/menu";
 import { useState } from "react";
-import { Cross } from "../icons/cross";
+import { Cross } from "../icons/Cross";
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

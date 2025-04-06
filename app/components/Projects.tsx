@@ -1,7 +1,42 @@
+import projects from "../projects.json";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+import { ProjectCard } from "./ProjectCard";
+
 export const Projects = () => {
   return (
-    <div className="flex flex-col w-[95%] px-4 py-4">
-      <span className="text-green-500 font-medium text-2xl">Projects</span>
+    <div className="flex flex-col px-4 py-4 gap-y-6 w-[95%] justify-center">
+      <span className="text-green-500 font-semibold text-3xl px-4 py-2">
+        Projects
+      </span>
+      <Carousel className="w-full">
+        <CarouselPrevious />
+        <CarouselContent>
+          {projects.projects.map((item) => {
+            return (
+              <CarouselItem
+                className="shadow-lg shadow-green-500"
+                key={item.title}
+              >
+                <ProjectCard
+                  title={item.title}
+                  description={item.description}
+                  deploymentLink={item.deploymentLink}
+                  linkToGithub={item.githubLink}
+                  image="/images/secondBrain.png"
+                  tags={item.tags}
+                />
+              </CarouselItem>
+            );
+          })}
+        </CarouselContent>
+        <CarouselNext />
+      </Carousel>
     </div>
   );
 };
