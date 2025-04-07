@@ -6,13 +6,6 @@
       "githubLink": "https://github.com/virtuality0/SecondBrain-Frontend",
       "deploymentLink": "https://second-brain-frontend-fwlq.vercel.app/",
       "tags": ["Typescript", "React", "Node.js"]
-    },
-    {
-      "title": "Chat Application",
-      "description": "This application let's you keep track of any tweet, youtube video or a link to an article that you wish to refer to later but don't have time to look at it now.",
-      "githubLink": "https://github.com/virtuality0/SecondBrain-Frontend",
-      "deploymentLink": "https://second-brain-frontend-fwlq.vercel.app/",
-      "tags": ["Typescript", "React", "Node.js"]
     }
   ]
 }
