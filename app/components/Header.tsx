@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Logo } from "../icons/logo";
 import { Menu } from "../icons/menu";
 import { useState } from "react";
-import { Cross } from "../icons/Cross";
+import { Close } from "../icons/Close";
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -66,7 +66,7 @@ export const Header = () => {
           }}
           className="md:hidden text-white"
         >
-          {isMenuOpen ? <Cross size="lg" /> : <Menu size="lg" />}
+          {isMenuOpen ? <Close size="lg" /> : <Menu size="lg" />}
         </div>
       </div>
       {isMenuOpen && (
