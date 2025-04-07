@@ -7,6 +7,10 @@ body {
   background-color: #171617;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @theme {
   --color-gray-700: #171617;
   --color-gray-600: #5c626f;

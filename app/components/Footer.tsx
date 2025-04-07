@@ -3,7 +3,10 @@ import { Logo } from "../icons/logo";
 
 export const Footer = () => {
   return (
-    <div className="flex flex-col gap-y-4 items-center px-2 py-2 bg-black-700 w-full">
+    <div
+      id="contact"
+      className="flex flex-col gap-y-4 items-center px-2 py-2 bg-black-700 w-full"
+    >
       <div className="text-green-500">
         <Logo size="lg" strokeWidth={3.0} />
       </div>

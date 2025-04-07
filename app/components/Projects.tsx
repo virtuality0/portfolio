@@ -10,7 +10,10 @@ import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
   return (
-    <div className="flex flex-col px-4 py-4 gap-y-6 w-[95%] justify-center">
+    <div
+      id="projects"
+      className="flex flex-col px-4 py-4 gap-y-6 w-[95%] justify-center"
+    >
       <span className="text-green-500 font-semibold text-3xl px-4 py-2">
         Projects
       </span>

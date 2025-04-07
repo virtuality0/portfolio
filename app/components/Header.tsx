@@ -20,19 +20,19 @@ export const Header = () => {
         <nav className="md:flex md:gap-x-4 md:items-center hidden px-2 py-2 text-white font-medium">
           <Link
             className="cursor-pointer hover:bg-green-500 px-2 py-2 rounded-md"
-            href="/resume"
+            href="#resume"
           >
             Resume
           </Link>
           <Link
             className="cursor-pointer hover:bg-green-500 px-2 py-2 rounded-md"
-            href="/projects"
+            href="#projects"
           >
             Projects
           </Link>
           <Link
             className="cursor-pointer hover:bg-green-500 px-2 py-2 rounded-md"
-            href="/contact"
+            href="#contact"
           >
             Contact
           </Link>
