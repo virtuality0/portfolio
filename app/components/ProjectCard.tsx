@@ -44,7 +44,7 @@ export const ProjectCard = ({
               <Button size="md" variant="secondary" text="See on github" />
             </Link>
             <Link href={deploymentLink ?? ""}>
-              <Button size="md" variant="primary" text="Deployed Here" />
+              <Button size="md" variant="primary" text="Website" />
             </Link>
           </div>
         </div>

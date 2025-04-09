@@ -2,10 +2,7 @@ import { Button } from "./Button";
 
 export const Resume = () => {
   return (
-    <div
-      id="resume"
-      className="flex justify-center bg-black-700 w-full px-4 py-4"
-    >
+    <div id="resume" className="flex justify-center w-full px-4 py-4">
       <a target="_blank" href="/AyushResume.pdf">
         <Button
           size="lg"

@@ -1,11 +1,11 @@
 export const Hero = () => {
   return (
     <div className="flex flex-col md:flex-row gap-x-8 gap-y-6 px-4 py-4 justify-between w-full bg-black-700 rounded-md shadow-green-500 shadow-md">
-      <div className="hidden md:block w-[30vw] aspect-square bg-black-700 clip-polygon relative overflow-hidden rounded-lg">
+      <div className="hidden md:block w-[25%]">
         <img
           src="/images/pic_ayush.jpg"
           alt="Pentagon Image"
-          className="absolute inset-0 w-full h-full object-cover"
+          className="w-full h-full object-cover aspect-square rounded-full"
         />
       </div>
       <div className="md:hidden w-full flex justify-center">
