@@ -31,7 +31,7 @@ export const Projects = () => {
                   description={item.description}
                   deploymentLink={item.deploymentLink}
                   linkToGithub={item.githubLink}
-                  image="/images/secondBrain.png"
+                  image="/images/second-brain.png"
                   tags={item.tags}
                 />
               </CarouselItem>
