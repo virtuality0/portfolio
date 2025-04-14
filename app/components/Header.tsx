@@ -38,21 +38,24 @@ export const Header = () => {
           </Link>
         </nav>
         <nav className="flex gap-x-4 items-center">
-          <Link href="https://github.com/virtuality0">
+          <Link href="https://github.com/virtuality0" target="_blank">
             <img
               className="w-5 md:w-10 cursor-pointer"
               src="/images/github.svg"
               alt="github"
             />
           </Link>
-          <Link href="https://www.linkedin.com/in/ayush-juyal-5401b5180/">
+          <Link
+            href="https://www.linkedin.com/in/ayush-juyal-5401b5180/"
+            target="_blank"
+          >
             <img
               className="w-5 md:w-10 cursor-pointer"
               src="/images/linkedin.svg"
               alt="linkedin"
             />
           </Link>
-          <Link href="#">
+          <Link href="https://x.com/virtualityo_0" target="_blank">
             <img
               className="w-5 md:w-10 cursor-pointer"
               src="/images/twitter.svg"

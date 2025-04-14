@@ -27,7 +27,7 @@ export const ProjectCard = ({
         </div>
         <div className="md:max-w-[50%] flex flex-col flex-wrap gap-y-8 px-4 py-4">
           <p className="text-gray-600">{description}</p>
-          <div className="flex gap-x-2 flex-wrap">
+          <div className="flex gap-2 flex-wrap content-start">
             {tags?.map((item) => {
               return (
                 <div

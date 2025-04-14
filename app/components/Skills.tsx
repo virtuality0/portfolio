@@ -5,12 +5,24 @@ export const Skills = () => {
         My Skills
       </h1>
       <div className="md:flex-row flex flex-col gap-y-6 md:gap-x-6">
-        <div className="flex gap-x-4 items-center border-2 border-gray-700">
-          <img className="w-15" src="/images/node.svg" alt="node" />
-          <img className="w-15" src="/images/typescript.svg" alt="typescript" />
-          <img className="w-15" src="/images/postgresql.svg" alt="postgres" />
-          <img className="w-15" src="/images/react.svg" alt="react" />
-          <img className="w-15" src="/images/tailwind.svg" alt="tailwind" />
+        <div className="flex gap-x-4 justify-center items-center border-2 border-gray-700">
+          <img className="md:w-15 w-10" src="/images/node.svg" alt="node" />
+          <img
+            className="md:w-15 w-10"
+            src="/images/typescript.svg"
+            alt="typescript"
+          />
+          <img
+            className="md:w-15 w-10"
+            src="/images/postgresql.svg"
+            alt="postgres"
+          />
+          <img className="md:w-15 w-10" src="/images/react.svg" alt="react" />
+          <img
+            className="md:w-15 w-10"
+            src="/images/tailwind.svg"
+            alt="tailwind"
+          />
         </div>
         <ul className="px-6 py-4 border-gray-600 border-2 rounded-md list-disc text-white flex flex-col gap-y-6">
           <li>
