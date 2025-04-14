@@ -22,7 +22,10 @@ export const Projects = () => {
         <CarouselContent>
           {projects.projects.map((item) => {
             return (
-              <CarouselItem className="shadow-lg shadow-green-500">
+              <CarouselItem
+                key={item.title}
+                className="shadow-lg shadow-green-500"
+              >
                 <ProjectCard
                   key={item.title}
                   title={item.title}
