@@ -71,14 +71,23 @@ export const Header = () => {
       </div>
       {isMenuOpen && (
         <div className="absolute w-full bg-gray-700 flex flex-col px-2 py-2 text-white font-medium gap-y-4 top-20 rounded-md">
-          <Link className="px-4 py-2" href="/resume">
+          <Link
+            onClick={() => {
+              setIsMenuOpen(false);
+            }}
+            className="px-4 py-2"
+            href="#resume"
+          >
             Resume
           </Link>
-          <Link className="px-4 py-2" href="/projects">
+          <Link
+            onClick={() => {
+              setIsMenuOpen(false);
+            }}
+            className="px-4 py-2"
+            href="#projects"
+          >
             Projects
-          </Link>
-          <Link className="px-4 py-2" href="/contact">
-            Contact
           </Link>
         </div>
       )}

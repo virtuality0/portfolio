@@ -12,7 +12,7 @@ export const Projects = () => {
   return (
     <div
       id="projects"
-      className="flex flex-col px-4 py-4 gap-y-6 w-[95%] justify-center"
+      className="flex flex-col px-4 py-4 gap-y-6 md:w-[95%] w-[85%] justify-center"
     >
       <span className="text-green-500 font-semibold text-3xl px-4 py-2">
         Projects
@@ -22,11 +22,9 @@ export const Projects = () => {
         <CarouselContent>
           {projects.projects.map((item) => {
             return (
-              <CarouselItem
-                className="shadow-lg shadow-green-500"
-                key={item.title}
-              >
+              <CarouselItem className="shadow-lg shadow-green-500">
                 <ProjectCard
+                  key={item.title}
                   title={item.title}
                   description={item.description}
                   deploymentLink={item.deploymentLink}

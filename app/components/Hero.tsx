@@ -21,7 +21,9 @@ export const Hero = () => {
           <span className="text-green-500">{`{Full Stack}`}</span> Developer
         </h1>
         <p className="text-wrap">
-          I have knowlege in cutting edge technologies such as{" "}
+          Driven by a love for building reliable, scalable systems from the
+          ground up. Always learning, always coding, and always aiming to make
+          systems work smarter. My skillset includes{" "}
           <span className="text-red-500">NodeJS</span>,{" "}
           <span className="text-red-500">ExpressJS</span>,{" "}
           <span className="text-red-500">Typescript</span>,{" "}

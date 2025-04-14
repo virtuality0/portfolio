@@ -4,7 +4,7 @@ export const Skills = () => {
       <h1 className="text-3xl text-green-500 font-medium px-10 py-2">
         My Skills
       </h1>
-      <div className="flex gap-x-6">
+      <div className="md:flex-row flex flex-col gap-y-6 md:gap-x-6">
         <div className="flex gap-x-4 items-center border-2 border-gray-700">
           <img className="w-15" src="/images/node.svg" alt="node" />
           <img className="w-15" src="/images/typescript.svg" alt="typescript" />
