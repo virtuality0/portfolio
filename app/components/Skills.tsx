@@ -1,7 +1,7 @@
 export const Skills = () => {
   return (
     <div className="flex flex-col gap-y-6 px-4 py-4 w-full items-center">
-      <h1 className="text-3xl text-green-500 font-medium px-10 py-2">
+      <h1 className="text-4xl underline text-green-500 font-medium px-10 py-2">
         My Skills
       </h1>
       <div className="md:flex-row flex flex-col gap-y-6 md:gap-x-6">

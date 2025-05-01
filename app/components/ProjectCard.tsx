@@ -19,13 +19,13 @@ export const ProjectCard = ({
   image,
 }: ProjectCardComponentProps) => {
   return (
-    <div className="flex flex-col gap-y-4 bg-black-700 px-4 py-4 rounded-lg">
+    <div className="flex flex-col items-center gap-y-4 bg-black-700 px-4 py-4 rounded-lg shadow-md shadow-green-500 md:w-[75%] w-full md:h-96">
       <h1 className="text-3xl text-white font-medium">{title}</h1>
-      <div className="md:flex-row flex flex-col gap-y-4 md:gap-x-6">
-        <div className="grow flex flex-col gap-y-4 justify-center rounded-md">
-          <img className="size-full" src={image} alt="project image" />
+      <div className="md:flex-row flex flex-col gap-4 grow w-full items-center">
+        <div className="rounded-md md:w-[45%] w-full shadow-md shadow-white/60">
+          <img src={image} alt="project image" />
         </div>
-        <div className="md:max-w-[50%] flex flex-col flex-wrap gap-y-8 px-4 py-4">
+        <div className="md:max-w-[50%] flex flex-col flex-wrap gap-y-8 px-4 py-4 grow">
           <p className="text-gray-600">{description}</p>
           <div className="flex gap-2 flex-wrap content-start">
             {tags?.map((item) => {
